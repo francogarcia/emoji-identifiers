@@ -2,7 +2,7 @@
 #+AUTHOR: Franco Eusébio Garcia
 #+DATE: [2025-08-19]
 
-#+BEGIN_SRC C :results output
+#+BEGIN_SRC C :results output :tangle "main.c"
 #include <stdio.h>
 #define 🖨️(X) printf("%d\n", (X))
 #define 🧮(X) ((X) * (X))
