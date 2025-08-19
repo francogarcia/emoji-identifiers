@@ -2,6 +2,8 @@
 #define 🖨️(X) printf("%d\n", (X))
 #define 🧮(X) ((X) * (X))
 #define ²
+#define 🏁
+#define 👋 return 0
 
 void 👀(unsigned char 🕶️) {
     if (!🕶️) {
@@ -10,10 +12,10 @@ void 👀(unsigned char 🕶️) {
 
     🖨️(🕶️);
 
-    👀(🕶️ - 1);
+    👀(--🕶️);
 }
 
-int main() {
+int main()🏁 {
     const int 💯 = 100;
     int 🖩 = 💯 + 💯;
     🖨️(🖩);
@@ -23,5 +25,5 @@ int main() {
 
     👀(💯 / 💯);
 
-    return 0;
+    👋;
 }
