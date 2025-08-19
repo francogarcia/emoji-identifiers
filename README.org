@@ -4,7 +4,7 @@
 
 #+BEGIN_SRC C :results output
 #include <stdio.h>
-#define 🖨️ printf
+#define 🖨️(X) printf("%d\n", (X))
 #define 🧮(X) ((X) * (X))
 #define ²
 
@@ -13,7 +13,7 @@ void 👀(unsigned char 🕶️) {
         return;
     }
 
-    🖨️("%d\n", 🕶️);
+    🖨️(🕶️);
 
     👀(🕶️ - 1);
 }
@@ -21,10 +21,10 @@ void 👀(unsigned char 🕶️) {
 int main() {
     const int 💯 = 100;
     int 🖩 = 💯 + 💯;
-    🖨️("%d\n", 🖩);
+    🖨️(🖩);
 
     🖩 = 🧮(💯)²;
-    🖨️("%d\n", 🖩);
+    🖨️(🖩);
 
     👀(💯 / 💯);
 
