@@ -1,0 +1,23 @@
+#+TITLE: Emoji as Identifier
+#+AUTHOR: Franco Eusébio Garcia
+#+DATE: [2025-08-19]
+
+#+BEGIN_SRC C :results output
+#include <stdio.h>
+#define 🖨️ printf
+
+int main() {
+    const int 💯 = 100;
+    int 🖩 = 💯 + 💯;
+    🖨️("%d\n", 🖩);
+
+    return 0;
+}
+#+END_SRC
+
+#+RESULTS:
+: 200
+
+#+BEGIN_SRC bash :results output
+gcc main.c && ./a.out
+#+END_SRC
